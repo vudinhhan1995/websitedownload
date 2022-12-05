@@ -24,19 +24,59 @@
     color: blue;
 }
 .divmenu{
-    border-top: solid 1px blue;
-    border-bottom: solid 1px blue;
+    border: solid 1px blue;
     margin-top: 15px;
 }
 .divmenu ul li{
     list-style-type: none;
     
 }
-ul{
+.divmenu ul{
     display: flex;
     justify-content: space-between;
     
 }
 a{
     text-decoration: none !important;
+}
+.divquangcao{
+    display: block;
+    overflow: hidden;
+    height: 280px;
+    width: 1380px;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-right: 0px;
+    /* border: solid 1px blue; */
+}
+.divcontent .divquangcao2{
+    /* border: solid 1px blue; */
+    display: block;
+    margin-top: 10px;
+}
+.maincontent ul li{
+    list-style-type: none;
+    height: 242px;
+    width: 150.391px;
+    max-width: max-content;
+}
+.maincontent{
+    margin-top: 15px;
+    /* border: solid 1px blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.maincontent img{
+    width: 124.391px;
+    height: 124.391px;
+    margin-left: 0px;
+}
+.maincontent span{
+    background-image: url(./star_black_24dp.svg);
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+}
+.maincontent ul:hover{
+    border: solid 1px blue
 }
