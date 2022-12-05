@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 54px;
+    width: 250px;
+    display: block;
+}
+.divchualogo{
+    display: flex;
+    flex-direction: row;
+    height: 54px;
+    width: 1048px;
+    padding: 10px 16px 20px 16px;
+}
+.osearch{
+    margin-left: 400px;
+
+}
+.nuttimkiem{
+    padding: 10px;
+    margin-left: 1px;
+    color: blue;
+}
+.divmenu{
+    border-top: solid 1px blue;
+    border-bottom: solid 1px blue;
+    margin-top: 15px;
+}
+.divmenu ul li{
+    list-style-type: none;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none !important;
+}
