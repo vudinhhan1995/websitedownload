@@ -57,8 +57,10 @@ a{
 .maincontent ul li{
     list-style-type: none;
     height: 242px;
-    width: 150.391px;
+    width: 140.391px;
     max-width: max-content;
+    text-align: center;
+    display: block;
 }
 .maincontent{
     margin-top: 15px;
@@ -66,31 +68,30 @@ a{
     display: flex;
     justify-content: space-between;
 }
-.maincontent img{
-    width: 114.391px;
-    height: 124.391px;
-}
 .maincontent span{
     background-image: url(./star_black_24dp.svg);
     display: inline-block;
     width: 13px;
     height: 13px;
 }
-.maincontent ul:hover{
+.maincontent ul li:hover{
     border: solid 1px blue;
     background-color: rgb(187, 216, 198);
 
 }
 
 .khoibaongoaibentrai{
-    height: 30px;
-    width: 66px;
+    height: 6063px;
+    width: 696px;
 }
 .khoinoibat{
-    display: flex;
-    flex-direction: row;
-    margin-left: 46px;
+    
     background-color: blue;
     max-width: 100%;
+    border: solid 1px blue;
+
+}
+.chuaall{
+    border: solid 1px blue;
 
 }
