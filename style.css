@@ -54,44 +54,9 @@ a{
     display: block;
     margin-top: 10px;
 }
-.maincontent ul li{
-    list-style-type: none;
-    height: 242px;
-    width: 140.391px;
-    max-width: max-content;
-    text-align: center;
-    display: block;
+div{
+    border: solid 1px blue
 }
-.maincontent{
-    margin-top: 15px;
-    /* border: solid 1px blue; */
-    display: flex;
-    justify-content: space-between;
-}
-.maincontent span{
-    background-image: url(./star_black_24dp.svg);
-    display: inline-block;
-    width: 13px;
-    height: 13px;
-}
-.maincontent ul li:hover{
-    border: solid 1px blue;
-    background-color: rgb(187, 216, 198);
-
-}
-
-.khoibaongoaibentrai{
-    height: 6063px;
-    width: 696px;
-}
-.khoinoibat{
-    
-    background-color: blue;
-    max-width: 100%;
-    border: solid 1px blue;
-
-}
-.chuaall{
-    border: solid 1px blue;
-
+.khoicard{
+   
 }
