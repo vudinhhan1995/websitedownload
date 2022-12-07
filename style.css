@@ -2,27 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.logo{
-    height: 54px;
-    width: 250px;
-    display: block;
-}
-.divchualogo{
-    display: flex;
-    flex-direction: row;
-    height: 54px;
-    width: 1048px;
-    padding: 10px 16px 20px 16px;
-}
-.osearch{
-    margin-left: 400px;
-
-}
-.nuttimkiem{
-    padding: 10px;
-    margin-left: 1px;
-    color: blue;
-}
 .divmenu{
     border: solid 1px blue;
     margin-top: 15px;
@@ -55,5 +34,8 @@ a{
     margin-top: 10px;
 }
 div{
+    /* border: solid 1px blue */
+}
+.container{
     border: solid 1px blue
 }
