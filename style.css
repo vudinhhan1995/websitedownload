@@ -45,3 +45,37 @@ div{
 .windows:hover{
     color: rgb(146, 190, 24);
 }
+.nutcatalog ul{
+    list-style-type: none;
+}
+.nutcatalog ul li {
+    border-radius: 20px;
+    border: solid 1px blue;
+    margin: 10px;
+    padding: 10px;
+}
+.nutcatalog{
+    display: inline-block;
+    margin: 10px;
+    /* border: solid 1px blue; */
+}
+.nutcatalog ul li a{
+    margin: 10px;
+}
+.khoiquangcao2{
+    height: 479px;
+    width: auto;
+}
+.nutcatalog2{
+    display: inline-block;
+    margin: 10px;
+}
+.nutcatalog2 ul{
+    list-style-type: none;
+}
+.nutcatalog2 ul li {
+    border-radius: 20px;
+    border: solid 1px blue;
+    margin: 10px;
+    padding: 10px;
+}
