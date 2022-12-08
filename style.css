@@ -79,3 +79,16 @@ div{
     margin: 10px;
     padding: 10px;
 }
+.footer{
+    border-top:solid 1px blue;
+}
+.footer ul li {
+    list-style-type: none;
+    text-align: right;
+}
+.khoidiachi{
+    padding-right: 100px;
+}
+.khoibanquyen{
+    text-align: right;
+}
